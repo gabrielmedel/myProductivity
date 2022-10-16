@@ -1,4 +1,4 @@
 # Project for self productivity managment
 
 ## Features
-just a productivity app
+just a personal productivity app
