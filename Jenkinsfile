@@ -1,9 +1,9 @@
 pipeline {
-    agent any
+    agent { docker { image 'node:16.17.1-alpine' } }
     stages {
-        stage('Hello') {
+        stage('build') {
             steps {
-                echo 'Te quiero angelita <3'
+                sh 'node --version'
             }
         }
     }
